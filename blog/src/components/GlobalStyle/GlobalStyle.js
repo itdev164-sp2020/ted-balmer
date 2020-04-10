@@ -188,7 +188,7 @@ const GlobalStyle = createGlobalStyle`
     font: inherit;
   }
   html {
-    font: 112.5%/1.45em georgia, serif;
+    font-size: 112.5%/1.45em;
     box-sizing: border-box;
     overflow-y: scroll;
   }
@@ -203,7 +203,7 @@ const GlobalStyle = createGlobalStyle`
   }
   body {
     color: hsla(0, 0%, 0%, 0.8);
-    font-family: georgia, serif;
+    font-family: sans-serif;
     font-weight: normal;
     word-wrap: break-word;
     font-kerning: normal;
